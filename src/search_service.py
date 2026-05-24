@@ -1257,10 +1257,10 @@ class MiniMaxSearchProvider(BaseSearchProvider):
       augmentation and client-side date filtering
     - Circuit-breaker protection: 3 consecutive failures -> 300s cooldown
 
-    API endpoint: POST https://api.minimaxi.com/v1/coding_plan/search
+    API endpoint: POST https://api.minimax.io/v1/coding_plan/search
     """
 
-    API_ENDPOINT = "https://api.minimaxi.com/v1/coding_plan/search"
+    API_ENDPOINT = "https://api.minimax.io/v1/coding_plan/search"
 
     # Circuit-breaker settings
     _CB_FAILURE_THRESHOLD = 3
